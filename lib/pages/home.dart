@@ -12,7 +12,7 @@ class HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('page home'),
+        title: Text('page principale'),
         backgroundColor: Colors.greenAccent,
         centerTitle: true,
         elevation: 20,
@@ -21,8 +21,8 @@ class HomeState extends State<Home> {
         child: ListView(
           children: <Widget>[
             ListTile(
-              title: Text('home'),
-              leading: Icon(Icons.home),
+              title: Text('principale'),
+              leading: Icon(Icons.house),
               subtitle: Text('home page'),
               onTap: () {},
             ),
@@ -64,13 +64,13 @@ class HomeState extends State<Home> {
             ),
             ListTile(
               title: Text('about'),
-              leading: Icon(Icons.info),
+              leading: Icon(Icons.bookmark_outline_rounded),
               subtitle: Text('get information'),
               onTap: () {},
             ),
             ListTile(
               title: Text('about'),
-              leading: Icon(Icons.info),
+              leading: Icon(Icons.house),
               subtitle: Text('get information'),
               onTap: () {},
             ),
@@ -110,7 +110,7 @@ class HomeState extends State<Home> {
               dotBgColor: Colors.redAccent[100].withOpacity(0.5),
               dotColor: Colors.greenAccent,
               dotSize: 7,
-              dotSpacing: 15,
+              dotSpacing: 25,
               showIndicator: true,
               noRadiusForIndicator: true,
               images: [

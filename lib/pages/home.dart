@@ -47,7 +47,7 @@ class HomeState extends State<Home> {
             ListTile(
               title: Text('about'),
               leading: Icon(Icons.info),
-              subtitle: Text('get information'),
+              subtitle: Text('information'),
               onTap: () {},
             ),
             ListTile(

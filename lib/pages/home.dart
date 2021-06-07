@@ -114,9 +114,8 @@ class HomeState extends State<Home> {
               showIndicator: true,
               noRadiusForIndicator: true,
               images: [
-                Image.asset('pics/slider/1.jpg', fit: BoxFit.cover),
-                Image.asset('pics/slider/2.jpg', fit: BoxFit.cover),
-                Image.asset('pics/slider/1.jpg', fit: BoxFit.cover)
+                Container(
+                    child: Image.asset('pics/slider/1.jpg', fit: BoxFit.cover))
               ],
               indicatorBgPadding: 10,
               animationCurve: Curves.fastOutSlowIn,
